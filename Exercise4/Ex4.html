@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title> Changing color exercise </title>
+    <script type="text/javascript" src="Ex4.js"></script>
+  <style>
+    p.colortext {
+    background-color: white;
+    border: 5px groove black;
+   }
+</style>
+   <meta charset="UTF-8">
+	</head>
+	<body>
+          <p class="colortext" id="myParagraph">This is the text that you can change border and background</P><br>
+          <p>Enter the values you want for the Border:</p>
+          <form action="/action_page.php">
+          Red value: <input type="text" name="fname" id="Redvalue"><br>
+          Green value: <input type="text" name="fname" id="Greenvalue"><br>
+          Blue value: <input type="text" name="fname" id="Bluevalue"><br>
+          Width: <input type="text" name="fname" id="Boarderwidth"><br>
+          <p>Enter the values you want for the Background:</p>
+          Red value: <input type="text" name="fname" id="Redvalue1"><br>
+          Green value: <input type="text" name="fname" id="Greenvalue1"><br>
+          Blue value: <input type="text" name="fname" id="Bluevalue1"><br>
+        </form>
+        <button onclick="colorfunc()">Submit</button>
+
+	</body>
+</html>
